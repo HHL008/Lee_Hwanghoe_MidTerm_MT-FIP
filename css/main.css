@@ -1,0 +1,439 @@
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+}
+
+/*Main Page Elemets*/
+#container
+{
+	width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 0 auto; /*center container*/
+	/*background-color: #efefef;*/
+}
+
+/* Age Gate page starts */
+#agegatecontainer
+{
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto; /*center container*/
+  background-color: #184785;
+}
+#ageGate
+{
+  display: flex;
+  flex-direction: row;
+}
+#logo
+{
+	display: block;
+	width: 300px;
+	margin-top: 300px;
+  margin-bottom: 333px;
+	margin-left: 100px;
+}
+#agegateForm
+{
+  margin-top: 350px;
+  margin-left: 50px;
+	display: flex;
+	flex-direction: column;
+	width:550px;
+}
+#agegateForm p
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: white;
+}
+#month, #date
+{
+width: 60px;
+height: 60px;
+font-size: 15px;
+margin-top: 10px;
+letter-spacing: normal;
+padding-left: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+font-size: 30px;
+}
+#year
+{
+  width: 100px;
+  height: 60px;
+  font-size: 15px;
+  margin-top: 10px;
+  letter-spacing: normal;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+#agegateForm ul li a
+{
+  display: block;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background-color: #EB242B;
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding-top: 10px;
+  transition: all .3s ease-in-out; /*should go on normal state*/
+}
+#agegateForm ul li a:hover
+{
+  background-color: #184785;
+  border-radius: 10px;
+}
+/* Age Gate page ends */
+
+
+/* mainNav section starts */
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	height: 120px;
+	margin-top: 20px;
+}
+
+#topLogo
+{
+	display: block;
+	width: 150px;
+	margin-top: 5px;
+	margin-left: 80px;
+}
+
+#mainNav
+{
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#mainNav ul
+{
+	margin-top: 90px;
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a
+{
+	margin-left: 20px;
+	display: block;
+	width: 150px;
+	background-color: #FBD00C;
+	color: #231F20;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 3px;
+  text-decoration: none;
+	transition: all .3s ease-in-out; /*should go on normal state*/
+}
+
+#mainNav ul li a:hover
+{
+	background: rgb(255,240,170);
+	background: linear-gradient(180deg, rgba(255,240,170,1) 0%, rgba(251,208,12,1) 70%, rgba(255,209,0,1) 100%);
+	color: #fff;
+}
+/* mainNav section ends */
+
+/* index section starts */
+#header
+{
+	width: 1007px;
+	height: 290px;
+	margin-top: 60px;
+	margin-left: 150px
+}
+
+#header h1, h2
+{
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.introduction
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 70px;
+	width: 900px;
+	margin-left: 160px;
+}
+
+.introduction p
+{
+	margin-top: 60px;
+}
+
+#foster
+{
+	display: flex;
+	flex-direction: row;
+  margin-top: 50px;
+}
+
+#foster img
+{
+  width: 220px;
+}
+#foster p
+{
+  margin-left: 200px;
+  width: 400px;
+  font-size: 20px;
+}
+
+#tylenol
+{
+	display: flex;
+	flex-direction: row-reverse;
+  margin-top: 50px;
+}
+#tylenol img
+{
+  width: 350px;
+}
+#tylenol p
+{
+  margin-top: 100px;
+  margin-right: 100px;
+  width: 400px;
+  font-size: 20px;
+}
+/* index section ends */
+
+/* about section starts */
+.about
+{
+  display:flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+#fosterInfo
+{
+	display: flex;
+	flex-direction: row;
+  margin-top: 100px;
+}
+#fosterInfo img
+{
+	width: 300px;
+}
+#fosterInfo p
+{
+  margin-left: 20px;
+	font-size: 18px;
+  margin-top: 80px;
+  width: 400px;
+}
+#tylenolInfo
+{
+	display: flex;
+	flex-direction: row;
+  margin-top: 50px;
+}
+#tylenolInfo img
+{
+	width: 300px;
+}
+#tylenolInfo p
+{
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 50px;
+  width: 500px;
+}
+/* about section ends */
+
+/* products section starts */
+
+/* products section ends */
+
+/* advertisements section starts */
+
+/* advertisements section ends */
+
+/*contact page starts*/
+#contact
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 150px;
+  margin-bottom: 150px;
+}
+#postalform
+{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+#postalcode
+{
+  width: 150px;
+ 	height: 30px;
+ 	font-size: 15px;
+ 	margin-top: 10px;
+ 	letter-spacing: normal;
+	line-height: 20px;
+ 	padding-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+#postalCode #enter
+{
+  border-style: none;
+  background-color: #EB242B;
+  width: 100px;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+#postalCode #enter:hover
+{
+  border-radius: 10px;
+  background-color: #D0D0D0;
+  color: black;
+}
+#googleMap img
+{
+	width: 400px;
+  height: 400px;
+}
+
+#form
+{
+  margin-right: 200px;
+	display: flex;
+	flex-direction: column;
+	width:50px;
+}
+
+#form #submit
+{
+   	border-style: none;
+   	background-color: #353535;
+   	width: 120px;
+   	height: 30px;
+   	color: #707070;
+   	font-size: 16px;
+  	margin: 0 auto;
+  	margin-top: 20px;
+  	border: 1px solid #707070;
+  	display: block;
+  	text-align: center;
+  	border-radius: 5px;
+  	cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+#form #submit:hover
+{
+  border-radius: 10px;
+  background-color: #D0D0D0;
+  color: black;
+}
+
+#form, #name, #email, #verification
+{
+ 	width: 300px;
+ 	height: 30px;
+ 	font-size: 15px;
+ 	margin-top: 10px;
+ 	letter-spacing: normal;
+	line-height: 20px;
+ 	padding-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+#order
+{
+ 	width: 400px;
+ 	height: 100px;
+ 	font-size: 15px;
+ 	margin-top: 10px;
+ 	letter-spacing: normal;
+	line-height: 20px;
+ 	padding-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+/* contact section ends */
+
+/* footer section starts */
+#mainFooter
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+  width: 1170px;
+  height: 209px;
+  background-color: #231F20;
+}
+
+#bottomLogo
+{
+	display: block;
+	width: 150px;
+	margin-top: 35px;
+	margin-left: 70px;
+  margin-right: 20px;
+}
+.footer_menu
+{
+	font-family: 'Rubik', sans-serif;
+	display: flex;
+	flex-direction: column;
+	margin-top: 70px;
+	margin-left: 30px;
+}
+
+.footer_menu h2
+{
+	color: white;
+	margin-right: 70px;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.footer_menu li a
+{
+	color: white;
+  text-decoration: none;
+}
+
+.socialMedia
+{
+	margin-top: 100px;
+  margin-left: 50px;
+}
+/* footer ends */
